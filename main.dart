@@ -1,7 +1,9 @@
-import 'calArea.dart';
+import 'person.dart';
 
 void main(){
-  var cal = CalArea();
-  cal.calculateTriangle(10,6);
-   cal.calculateRectangle(5,7);
+  //var person = Person("Net", "F", 16, ); optional 
+  var person = Person(name: "Net",sex:  "F", age:  16, address: "Bmc", tell: "123");//construactor width name 
+  
+  person.showInfo();
+
 }
